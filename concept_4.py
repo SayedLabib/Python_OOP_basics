@@ -17,10 +17,10 @@ class Dog():
 
     def dogs_bark(n):
        
-       for _ in range(n):
+       for __ in range(n):
           print("barking dog !!")
 
 Shepard = Dog("German Shepard")
 pitBull = Dog("PitBull")
 
-print(pitBull.dogs_bark(2))
+Dog.dogs_bark(5)
